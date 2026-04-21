@@ -22,12 +22,12 @@ int main()
 	cout << "Please Enter Your NIM ? : "; getline(cin, S1.NIM);
 	cout << endl;
 
-	cout << "Please Enter Your Name ? : "; cin >> S1.Name;
+	cout << "Please Enter Your Name ? : "; getline(cin, S1.Name);
 	cout << endl;
 
-	cout << "Please Enter Your City ? : "; cin >> S1.Address.city;
+	cout << "Please Enter Your City ? : "; getline(cin,S1.Address.city);
 	cout << endl;
-	cout << "Please Enter Your village ? : "; cin >> S1.Address.village;
+	cout << "Please Enter Your village ? : "; getline(cin,S1.Address.village);
 	cout << endl;
 
 	cout << "Please Enter Your Age ? : "; cin >> S1.Age;
