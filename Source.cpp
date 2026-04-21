@@ -3,7 +3,7 @@
 #include <iostream>
 using namespace std;
 
-struct Address
+struct StAddress
 {
 	string village;
 	string city;
@@ -12,7 +12,7 @@ struct Student
 {
 	string NIM;
 	string Name;
-	string Address;
+	StAddress  Address;
 	int Age;
 };
 int main()
