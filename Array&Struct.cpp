@@ -15,5 +15,9 @@ int main()
 	cout << "Please Enter Your NIM ? : "; cin >> S1.NIM;
 	cout << endl;
 
+	cout << "Please Enter Your Name ? : "; cin >> S1.Name;
+	cout << endl;
+
+
 }
 
