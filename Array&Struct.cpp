@@ -18,6 +18,8 @@ int main()
 	cout << "Please Enter Your Name ? : "; cin >> S1.Name;
 	cout << endl;
 
+	cout << "Please Enter Your Adress ? : "; cin >> S1.Address;
+	cout << endl;
 
 }
 
