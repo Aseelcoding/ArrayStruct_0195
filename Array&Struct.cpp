@@ -21,5 +21,7 @@ int main()
 	cout << "Please Enter Your Adress ? : "; cin >> S1.Address;
 	cout << endl;
 
+	cout << "Please Enter Your Age ? : "; cin >> S1.Age;
+	cout << endl;
 }
 
