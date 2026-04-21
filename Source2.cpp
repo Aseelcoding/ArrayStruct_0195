@@ -18,7 +18,7 @@ struct Student
 };
 int main()
 {
-	Student S1;
+	Student S1[3];
 	cout << "Please Enter Your NIM ? : "; getline(cin, S1.NIM);
 	cout << endl;
 
