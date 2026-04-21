@@ -24,7 +24,9 @@ int main()
 	cout << "Please Enter Your Name ? : "; cin >> S1.Name;
 	cout << endl;
 
-	cout << "Please Enter Your Adress ? : "; cin >> S1.Address;
+	cout << "Please Enter Your City ? : "; cin >> S1.Address.city;
+	cout << endl;
+	cout << "Please Enter Your village ? : "; cin >> S1.Address.village;
 	cout << endl;
 
 	cout << "Please Enter Your Age ? : "; cin >> S1.Age;
@@ -32,7 +34,8 @@ int main()
 
 	cout << "NIM : " << S1.NIM << endl;
 	cout << "Name : " << S1.Name << endl;
-	cout << "Address : " << S1.Address << endl;
+	cout << "City : " << S1.Address.city << endl;
+	cout << "village : " << S1.Address.village << endl;
 	cout << "Age : " << S1.Age << endl;
 
 }
