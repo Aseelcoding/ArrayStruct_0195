@@ -19,26 +19,34 @@ struct Student
 int main()
 {
 	Student S1[3];
-	cout << "Please Enter Your NIM ? : "; getline(cin, S1.NIM);
-	cout << endl;
 
-	cout << "Please Enter Your Name ? : "; getline(cin, S1.Name);
-	cout << endl;
+	for (int i = 0; i < 3; i++) {
 
-	cout << "Please Enter Your City ? : "; getline(cin, S1.Address.city);
-	cout << endl;
-	cout << "Please Enter Your village ? : "; getline(cin, S1.Address.village);
-	cout << endl;
+		cout << " Student Number  :  " << i + 1 << endl;
 
-	cout << "Please Enter Your Age ? : "; cin >> S1.Age;
-	cout << endl;
+		cout << "Please Enter Your NIM ? : "; getline(cin, S1[i].NIM);
+		cout << endl;
 
-	cout << "NIM : " << S1.NIM << endl;
-	cout << "Name : " << S1.Name << endl;
-	cout << "City : " << S1.Address.city << endl;
-	cout << "village : " << S1.Address.village << endl;
-	cout << "Age : " << S1.Age << endl;
+		cout << "Please Enter Your Name ? : "; getline(cin, S1[i].Name);
+		cout << endl;
 
+		cout << "Please Enter Your City ? : "; getline(cin, S1[i].Address.city);
+		cout << endl;
+		cout << "Please Enter Your village ? : "; getline(cin, S1[i].Address.village);
+		cout << endl;
+
+		cout << "Please Enter Your Age ? : "; cin >> S1[i].Age;
+		cout << endl;
+
+	}
+
+
+
+	cout << "NIM : " << S1[i].NIM << endl;
+	cout << "Name : " << S1[i].Name << endl;
+	cout << "City : " << S1[i].Address.city << endl;
+	cout << "village : " << S1[i].Address.village << endl;
+	cout << "Age : " << S1[i].Age << endl;
 	return 0;
 }
 
