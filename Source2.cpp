@@ -40,13 +40,19 @@ int main()
 
 	}
 
+	for (int i = 0; i < 3; i++)
+	{
 
+		cout << "Info " << endl << endl;
+		cout << " Student Number  :  " << i + 1 << endl; 
+		cout << "NIM : " << S1[i].NIM << endl;
+		cout << "Name : " << S1[i].Name << endl;
+		cout << "City : " << S1[i].Address.city << endl;
+		cout << "village : " << S1[i].Address.village << endl;
+		cout << "Age : " << S1[i].Age << endl;
+	}
 
-	cout << "NIM : " << S1[i].NIM << endl;
-	cout << "Name : " << S1[i].Name << endl;
-	cout << "City : " << S1[i].Address.city << endl;
-	cout << "village : " << S1[i].Address.village << endl;
-	cout << "Age : " << S1[i].Age << endl;
+	
 	return 0;
 }
 
