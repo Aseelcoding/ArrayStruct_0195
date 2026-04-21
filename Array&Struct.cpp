@@ -23,5 +23,11 @@ int main()
 
 	cout << "Please Enter Your Age ? : "; cin >> S1.Age;
 	cout << endl;
+
+	cout << "NIM : " << S1.NIM << endl;
+	cout << "Name : " << S1.Name << endl;
+	cout << "Address : " << S1.Address << endl;
+	cout << "Age : " << S1.Age << endl;
+
 }
 
